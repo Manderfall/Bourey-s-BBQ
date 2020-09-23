@@ -41,11 +41,12 @@ const port = 3000;
 // Routes ------------------------------------------
 const indexRoutes = require("./routes/index");
 const contactRoutes = require("./routes/contact");
+const menuRoutes = require("./routes/menu");
 
 
 app.use(indexRoutes);
 app.use(contactRoutes);
-
+app.use(menuRoutes);
 // START/LISTEN//		
 app.listen(port, () => { console.log(`Listening on port ${port}`); });
 	
