@@ -2,7 +2,6 @@ body,html{
     background: #E0EAFC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
 	margin:0;
     
 }
@@ -17,6 +16,7 @@ ul{
     
 }
 h2{
+	margin-top:95px;
     font-family:'Roboto Condensed', sans-serif;
     display: flex;
     justify-content: center;
@@ -32,8 +32,7 @@ h2{
 
 img{
     height: 375px;
-    width: 425px;
-    min-width: 200px;
+    width: 425px;   
     min-height:200px;
     margin:auto 0;
     border-radius: 20px;
@@ -51,3 +50,51 @@ img{
 
 }
 
+/* slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;	
+}
+img{
+	margin-top:35px;
+	border-radius: 20px;
+	height:75vh;
+	width:70vw;
+
+}
+div.slideshow-container{
+	margin-top:25px;
+	margin-bottom:60px;
+}
+
+/* hides images */
+.mySlides {
+  display: none;
+}
+/* ------------------ */
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.95s;
+  animation-name: fade;
+  animation-duration: 5.25s;
+}
+
+@-webkit-keyframes fade {
+	    0% { opacity: 0.0;}
+    
+    50% { opacity: 1;}
+	
+	100% { opacity: 0.0;}
+}
+
+@keyframes fade {
+	    0% { opacity: 0.0;}
+    
+    50% { opacity: 1;}
+	
+	100% { opacity: 0.0;}
+}
+/* ------------------ */
