@@ -40,11 +40,11 @@ const port = 3000;
 
 // Routes ------------------------------------------
 const indexRoutes = require("./routes/index");
-
+const contactRoutes = require("./routes/contact");
 
 
 app.use(indexRoutes);
-
+app.use(contactRoutes);
 
 // START/LISTEN//		
 app.listen(port, () => { console.log(`Listening on port ${port}`); });
