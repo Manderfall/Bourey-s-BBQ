@@ -1,5 +1,21 @@
-h1{
+h1,h2{
 	display:flex;
 	justify-content:center;
 	margin-top:115px;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-size:32px;
+}
+a{
+	display:flex;
+	justify-content:center;
+	margin-top:0;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size:26px;
+	text-decoration:none;
+	color:blue;
+}
+a:visited{
+	color:blue;
 }
