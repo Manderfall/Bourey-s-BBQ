@@ -1,20 +1,58 @@
-div.container.menu-container{
-	margin-top:120px;
-	margin-left:230px;
-	margin-right:230px;
+
+body,html{
+	
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size:cover;
+	background-repeat:no-repeat;
+
+    
+}
+div.container.menu-container{	
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:space-between;
+	justify-content:space-around;
 	align-items:center;
+	max-width:100vw;
+	margin:auto;	
+	padding:0;
+	white-space: nowrap;
 }
 
+div.menu-section{
+	display:flex;	
+	flex-direction:column;
+	max-width:100%;	
+	line-height:2em;
+}
 div.item-section{
-	display:flex;
-	justify-content:center;
+	margin:0;
+	padding:0;
 }
-
-div.menu-item{
-	display:flex;
-	line-height:3em;
+li{
+	
+	list-style:none;
+	
 }
+li.menu-item{
+	display:flex;
+	justify-content:flex-start;
+	
 
+
+}
+span{
+	display:flex;
+white-space: nowrap;
+	margin-left:75px;
+	
+}
+h2{
+	margin-bottom:15px;
+}
+h4{	
+	margin-left:15px;
+	margin-right:10px;
+
+}
