@@ -13,6 +13,7 @@ body,html{
 div.container.menu-container{
 	height:100%;
 	max-width:100%;
+	padding:0;
 	
 }
 div.meat-header{
@@ -24,29 +25,91 @@ div.meat-header{
 }
 div.meat-options{
 	display:flex;
-	justify-content:center;
+	justify-content:center;	
 	
 }
 div.meat-price{
 	display:flex;
 	justify-content:center;
+
+}
+h2.section-header{
+	margin-top: 150px;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	
+	padding:15px;
 }
 
-h3{
+h2.meat-title{
+	margin-bottom: 50px;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	
+	
+}
+h3.meat-cut{
 	padding-right:23px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	
 }
-h4{
+
+p.order-size{
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
 	margin-right:10px;
+	
 
 }
-h5{
-	margin-left:10px;
+h5.order-price{
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	margin-left:5px;
 	margin-right:20px;
+	padding-right:5px;
+	
 }
 /* for small mobile devices to center. */
-@media screen and (max-width: 425px) {
-  div.menu-container{
-  width: 100%;
-  display: flex;
-  justify-content:center;
-  flex-wrap: wrap;
+@media screen and (min-width: 601px) {
+	h2.section-header{
+		font-size:40px;
+	}
+		h2.meat-title{
+		font-size:34px;
+	}
+		h3.meat-cut{
+		font-size:28px;
+	}
+		p.order-size{
+		font-size:24px;
+	}
+		h5.order-price{
+		font-size:20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	div.menu-container{
+  	width: 100%;
+  	display: flex;
+  	justify-content:center;
+  	flex-wrap: wrap;
+	}
+	h2.section-header{
+		font-size:32px;
+	}
+	h2.meat-title{
+		font-size:28px;
+	}
+	h3.meat-cut{
+		font-size:20px;
+	}
+	p.order-size{
+		font-size:16x;
+	}
+	h5.order-price{
+		font-size:14px;
+	}
+}
+
