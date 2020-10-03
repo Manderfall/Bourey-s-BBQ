@@ -101,4 +101,11 @@ div.slideshow-container{
 	100% { opacity: 0.0;}
 }
 /* ------------------ */
-
+@media screen and (max-width: 600px) {
+	h2.main-title{
+  	width: 100%;
+  	display: flex;
+  	justify-content:center;
+  	flex-wrap: wrap;
+	text-align:center;
+	}
