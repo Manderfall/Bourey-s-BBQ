@@ -95,6 +95,7 @@ h5.order-price{
   	display: flex;
   	justify-content:center;
   	flex-wrap: wrap;
+	
 	}
 	h2.section-header{
 		font-size:32px;

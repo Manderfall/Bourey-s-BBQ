@@ -19,3 +19,16 @@ a{
 a:visited{
 	color:blue;
 }
+h1.contact-title{
+	margin-top:175px;
+}
+
+@media screen and (max-width: 600px) {
+	h1.contact-title{
+  	width: 100%;
+  	display: flex;
+  	justify-content:center;
+  	flex-wrap: wrap;
+		text-align:center;
+	}
+}
